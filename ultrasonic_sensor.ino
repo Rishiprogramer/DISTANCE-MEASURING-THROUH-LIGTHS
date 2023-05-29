@@ -45,7 +45,7 @@ void loop()
     
     
     }
-   if(cm >=5 && cm <=10){
+   else if(cm >=5 && cm <=10){
       
       digitalWrite(ledg, LOW);
       delay(0.1);
@@ -55,7 +55,7 @@ void loop()
       delay(0.1);
       
       }
-    if(cm >=10 && cm <=20){
+    else if(cm >=11 && cm <=20){
       
       digitalWrite(ledr,LOW);
       delay(0.1);
