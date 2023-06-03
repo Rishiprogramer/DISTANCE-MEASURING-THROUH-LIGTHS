@@ -35,7 +35,7 @@ void loop()
   inches = (cm / 2.54);
   delay(10); 
   
-  if(cm <= 5){
+  if(cm <= 20){
     digitalWrite(ledg, LOW);
     delay(0.1);
     digitalWrite(ledy, LOW);
@@ -45,7 +45,7 @@ void loop()
     
     
     }
-   else if(cm >=5 && cm <=10){
+   else if(cm >=20 && cm <=40){
       
       digitalWrite(ledg, LOW);
       delay(0.1);
@@ -55,7 +55,7 @@ void loop()
       delay(0.1);
       
       }
-    else if(cm >=11 && cm <=20){
+    else if(cm >=41 && cm <=50){
       
       digitalWrite(ledr,LOW);
       delay(0.1);
